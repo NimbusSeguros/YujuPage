@@ -1,0 +1,483 @@
+.div-cotizaAhora {
+    margin-top: 450px;
+   
+}
+.vertical-dotted-separator {
+  border-left: 2px dotted #007bff;
+  height: 40px; /* Ajusta la altura según tus necesidades */
+  margin: 0 10px;
+  display: flex;
+
+}
+
+.moto-insurance-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    margin-left: 4%!important;
+    border-radius: 15px;
+    width: 91.5%;
+    border: 0px solid;
+    box-shadow: 0 0 10px #8d8b8e40;
+    margin: -20px 50px;
+    background-color: white;
+  }
+  
+  .moto-texto {
+    color: #a0a0a0;
+    font-family: Inter;
+  }
+  
+   .moto-precio {
+    color: #3369FF;
+    font-weight: bold;
+    font-family: Inter;
+   
+  }
+  
+  .moto-icon {
+    width: 50px;
+    height: 50px;
+    
+    background-size: cover;
+  }
+  
+  .moto-button {
+    background-color:  #0F2BA1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Inter;
+    width: 255px;
+    font-size: 12px;
+  }
+  
+  .moto-button:hover {
+    background-color: #0056b3;
+  }
+
+
+
+  @media (min-width: 1601px) and (max-width: 1800px) {
+    .div-cotizaAhora {
+      margin-top: 380px;
+     
+  }
+  .vertical-dotted-separator {
+    border-left: 2px dotted #007bff;
+    height: 40px; /* Ajusta la altura según tus necesidades */
+    margin: 0 10px;
+    display: flex;
+  
+  }
+  
+  .moto-insurance-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      border: 1px solid #e0e0e0;
+      padding: 10px;
+      margin-left: 4%;
+      border-radius: 15px;
+      width: 92%;
+      border: 0px solid;
+      box-shadow: 0 0 10px #8d8b8e40;
+      margin: -20px 50px;
+      background-color: white;
+      position: relative;
+      z-index: 1;
+    }
+    
+    .moto-texto {
+      color: #a0a0a0;
+      font-family: Inter;
+    }
+    
+     .moto-precio {
+      color: #3369FF;
+      font-weight: bold;
+      font-family: Inter;
+     
+    }
+    
+    .moto-icon {
+      width: 50px;
+      height: 50px;
+      
+      background-size: cover;
+    }
+    
+    .moto-button {
+      background-color:  rgba(15, 43, 161, 1);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-family: Inter;
+      width: 255px;
+      font-size: 12px;
+    }
+    
+    .moto-button:hover {
+      background-color: #0056b3;
+    }
+
+
+  }
+
+
+  @media (min-width: 1401px) and (max-width: 1600px) {
+    .div-cotizaAhora {
+      margin-top: 325px;
+     
+  }
+  .vertical-dotted-separator {
+    border-left: 2px dotted #007bff;
+    height: 40px; /* Ajusta la altura según tus necesidades */
+    margin: 0 10px;
+    display: flex;
+  
+  }
+  
+  .moto-insurance-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      border: 1px solid #e0e0e0;
+      padding: 10px;
+      margin-left: 4%;
+      border-radius: 15px;
+      width: 92%;
+      border: 0px solid;
+      box-shadow: 0 0 10px #8d8b8e40;
+      margin: -20px 50px;
+      background-color: white;
+      position: relative;
+      z-index: 1;
+    }
+    
+    .moto-texto {
+      color: #a0a0a0;
+      font-family: Inter;
+    }
+    
+     .moto-precio {
+      color: #3369FF;
+      font-weight: bold;
+      font-family: Inter;
+     
+    }
+    
+    .moto-icon {
+      width: 50px;
+      height: 50px;
+      
+      background-size: cover;
+    }
+    
+    .moto-button {
+      background-color:  rgba(15, 43, 161, 1);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-family: Inter;
+      width: 255px;
+      font-size: 12px;
+    }
+    
+    .moto-button:hover {
+      background-color: #0056b3;
+    }
+
+
+  }
+  
+
+
+
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .div-cotizaAhora {
+      margin-top: 300px;
+     
+  }
+  .vertical-dotted-separator {
+    border-left: 2px dotted #007bff;
+    height: 40px; /* Ajusta la altura según tus necesidades */
+    margin: 0 10px;
+    display: flex;
+  
+  }
+  
+  .moto-insurance-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      border: 1px solid #e0e0e0;
+      padding: 10px;
+      margin-left: 4%;
+      border-radius: 15px;
+      width: 92%;
+      border: 0px solid;
+      box-shadow: 0 0 10px #8d8b8e40;
+      margin: -20px 50px;
+      background-color: white;
+      position: relative;
+      z-index: 1;
+    }
+    
+    .moto-texto {
+      color: #a0a0a0;
+      font-family: Inter;
+    }
+    
+     .moto-precio {
+      color: #3369FF;
+      font-weight: bold;
+      font-family: Inter;
+     
+    }
+    
+    .moto-icon {
+      width: 50px;
+      height: 50px;
+      
+      background-size: cover;
+    }
+    
+    .moto-button {
+      background-color:  rgba(15, 43, 161, 1);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-family: Inter;
+      width: 255px;
+      font-size: 12px;
+    }
+    
+    .moto-button:hover {
+      background-color: #0056b3;
+    }
+
+
+  }
+  
+
+
+  @media (min-width: 601px) and (max-width: 900px) {
+
+    .div-cotizaAhora {
+      margin-top: 280px;
+     
+  }
+
+  }
+
+@media only screen and (max-width: 600px) {
+  .div-cotizaAhora {
+    margin-top: 105%;
+    
+}
+
+.moto-insurance-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  margin-left: 4%;
+  border-radius: 8px;
+  width: 90%;
+  border: 0px solid;
+  box-shadow: 0 0 10px #8d8b8e40;
+  margin: 0px 20px;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+
+  .moto-button {
+    display: flex;
+    width: 30%;
+    height: 25px;
+    text-align: center;
+    font-size: 8px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .moto-precio {
+    height: 10%;
+    width: 17%;
+    font-size: 60%;
+  }
+
+  .moto-texto {
+    width: 16%;
+    margin-left: 6px;
+  font-size: 60%;
+  }
+
+}
+
+
+@media only screen and (min-width: 426px) and (max-width: 500px) {
+
+  .div-cotizaAhora {
+    margin-top: 105%;
+    
+}
+
+.moto-insurance-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  margin-left: 4%;
+  border-radius: 8px;
+  width: 91%;
+  border: 0px solid;
+  box-shadow: 0 0 10px #8d8b8e40;
+  margin: 0px 20px;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+
+  .moto-button {
+    display: flex;
+    width: 30%;
+    height: 25px;
+    text-align: center;
+    font-size: 8px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(15, 43, 161, 1);
+  }
+
+  .moto-precio {
+    height: 10%;
+    width: 17%;
+    font-size: 60%;
+  }
+
+  .moto-texto {
+    width: 16%;
+    margin-left: 6px;
+  font-size: 60%;
+  }
+}
+
+
+@media only screen and (min-width: 391px) and (max-width: 425px) {
+  .div-cotizaAhora {
+    margin-top: 105%;
+    
+}
+
+.moto-insurance-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  margin-left: 4%;
+  border-radius: 8px;
+  width: 90%;
+  border: 0px solid;
+  box-shadow: 0 0 10px #8d8b8e40;
+  margin: 0px 20px;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+
+}
+
+
+  .moto-button {
+    display: flex;
+    width: 30%;
+    height: 25px;
+    text-align: center;
+    font-size: 8px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(15, 43, 161, 1);
+  }
+
+  .moto-precio {
+    height: 10%;
+    width: 17%;
+    font-size: 60%;
+  }
+
+  .moto-texto {
+    width: 16%;
+    margin-left: 6px;
+  font-size: 60%;
+  }
+
+}
+
+
+@media only screen and (min-width: 100px) and (max-width: 390px) {
+
+  .div-cotizaAhora {
+    margin-top: 105%;
+    
+}
+
+.moto-insurance-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  margin-left: 4%;
+  border-radius: 8px;
+  width: 90%;
+  border: 0px solid;
+  box-shadow: 0 0 10px #8d8b8e40;
+  margin: 0px 20px;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+
+}
+
+
+  .moto-button {
+    display: flex;
+    width: 33%;
+    height: 25px;
+    text-align: center;
+    font-size: 8px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(15, 43, 161, 1);
+  }
+
+  .moto-precio {
+    height: 10%;
+    width: 17%;
+    font-size: 8px;
+  }
+
+  .moto-texto {
+    width: 12%;
+        margin-left: 6px;
+        font-size: 8px;
+  }
+
+}

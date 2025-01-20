@@ -1,0 +1,6 @@
+export * from "./HeaderTablet"
+export * from "./InfoTablet"
+export * from "./DataCardTablet"
+export * from "./BannerTablet"
+export * from "./ImgTablet"
+export * from "./AcordeonTablet"

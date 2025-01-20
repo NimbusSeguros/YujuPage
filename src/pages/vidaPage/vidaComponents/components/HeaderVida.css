@@ -1,0 +1,397 @@
+.header-vida .imgPorDefectoMotos{
+    display: block;
+  }
+  
+  .header-vida .imgRemplazoMotos{
+    display: none;
+  }
+  .header-vida .imgFotoCelular{
+    display: none;
+  }
+  
+  .header-vida img{
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+    z-index: -1;
+   
+  }
+  .container-vida{
+    position: relative;
+    z-index: 1;
+    top: 120px;
+    left:4%
+  }
+  
+  
+  .h1-vida {
+  z-index: 1;
+  color: white;
+  font-size: 35px;
+  margin-left: -10px;
+  font-family: inter;
+  background-color: rgba(51, 255, 204, 0.5);
+  inline-size: fit-content;
+  font-weight: 900!important;
+  padding: 10px;
+  top: 40px;
+  } 
+  
+  .h2-vida{
+  margin-top: 10px;
+  color: white;
+  font-family: inter;
+  font-weight: 700!important;
+  width: 900px; /* Ancho específico */
+  white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+  overflow: hidden; /* Oculta el desbordamiento */
+  }
+
+
+  .h3-vida{
+    margin-top: 10px;
+    color: white;
+    font-family: inter;
+    font-weight: 400;
+  }
+
+
+  .buttonVidaHeader {
+    display: flex;
+    position: relative;
+    top: 70px;
+    padding: 6px 75px 6px 75px;
+    border-radius: 6px;
+    border: 0.2px transparent;
+    background-color: #33FFCC;
+    font-size: 12px;
+    font-family: 'Inter';
+    color: rgba(51, 105, 255, 1);
+    cursor: pointer;
+  }
+  
+  .buttonVidaHeader a {
+    font-size: 12px;
+    font-family: 'Inter';
+    text-decoration: none;
+    color: #3369FF;
+  }
+
+  
+  @media 
+  (min-width: 1200px) and (max-width: 1600px) {
+
+    .container-vida{
+      top: 50px;
+      width: 70%;
+    }
+
+    .h2-vida h2{
+      font-size: 100%!important;
+      font-weight: 800;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      width: 734px;
+      font-size: 24px;
+  }
+
+    .h3-vida{
+      margin-bottom: -40px;
+      font-size: 100%;
+      font-weight: 400;
+      
+    }
+  
+    .buttonVidaHeader {
+        display: flex;
+        position: relative;
+        top: 70px;
+        padding: 6px 75px 6px 75px;
+        border-radius: 6px;
+        border: 0.2px transparent;
+        background-color: #33FFCC;
+      }
+      
+      .buttonVidaHeader a {
+        font-size: 12px;
+        font-family: 'Inter';
+        text-decoration: none;
+        color: #3369FF;
+      }
+  
+  }
+  
+  /* ///////////////Notebook////////////*/
+  
+  @media (min-width: 601px) and (max-width: 900px) {
+
+    .container-vida{
+      top: 50px;
+      width: 70%;
+    }
+
+    .h2-vida {
+      margin-top: 10px;
+      color: white;
+      font-family: inter;
+      font-weight: 700 !important;
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      font-size: 18px;
+  }
+
+    .h3-vida{
+      margin-bottom: -40px;
+      font-size: 100%;
+      font-weight: 400;
+      font-size: 14px;
+    }
+  
+    .buttonVidaHeader {
+        display: flex;
+        position: relative;
+        top: 70px;
+        padding: 6px 75px 6px 75px;
+        border-radius: 6px;
+        border: 0.2px transparent;
+        background-color: #33FFCC;
+      }
+      
+      .buttonVidaHeader a {
+        font-size: 12px;
+        font-family: 'Inter';
+        text-decoration: none;
+        color: #3369FF;
+      }
+  
+      .header-vida .imgPorDefectoMotos{
+        display: none;
+      }
+      
+      .header-vida .imgRemplazoMotos{
+        display: flex;
+      }
+      .header-vida .imgFotoCelular{
+        display: none;
+      }
+
+  }
+
+
+
+
+
+  @media only screen and (max-width: 600px) {
+  
+    .header-vida img{
+      position: absolute;
+      display: flex;
+      overflow: hidden;
+      z-index: -1;
+      margin-top: -300px!important;
+    }
+  
+  
+    .container-vida{
+      top: 30px;
+      width: 90%;
+     
+    }
+  
+    .container-vida{
+      position: relative;
+      z-index: 1;
+      top: 55px;
+      left:4%
+    }
+  
+    .h1-vida {
+    z-index: 1;
+    color: white;
+    font-size: 35px;
+    margin-left: -10px;
+    font-family: inter;
+    background-color: rgba(51, 255, 204, 0.5);
+    inline-size: fit-content;
+    font-weight: 900;
+    padding: 12px;
+    top: 40px;
+    } 
+    
+    .h2-vida{
+    margin-top: 10px;
+    color: white;
+    font-family: inter;
+    font-weight: 700!important;
+    font-size: 12px!important;
+    width: 103%!important;
+    }
+   
+    
+    .h3-vida{
+      margin-top: 10px;
+      color: white;
+      font-family: inter;
+      font-weight: 400;
+      font-size: 8px!important;
+    }
+  
+  
+  .h1-vida{
+   
+    margin-left: 0.1%;
+    font-weight: 500;
+    font-size: 100%!important;
+    padding: 4PX;
+  }
+  
+  .h2-vida{
+    font-weight: 500;
+    font-size: 80%;
+  }
+  
+  
+   
+  .h3-vida{
+    font-size: 60%;
+  }
+  
+    .header-vida .imgPorDefectoMotos{
+      display: none;
+    }
+    
+    .header-vida .imgRemplazoMotos{
+      display: none;
+    }
+  
+    .header-vida .imgFotoCelular{
+      display: block;
+    }
+  
+    .buttonVidaHeader {
+      display: flex;
+        position: relative;
+        top: 30px;
+        padding: 8px 30px 8px 30px;
+        border-radius: 8px;
+        border: 0.2px transparent;
+        background-color: #33FFCC;
+    }
+
+    .buttonVidaHeader a {
+      font-size: 8px;
+      font-family: 'Inter';
+      text-decoration: none;
+      color: #3369FF;
+  }
+  
+  }
+  
+    
+  @media only screen and (min-width: 100px) and (max-width: 430px) {
+
+    .header-vida img{
+      position: absolute;
+      display: flex;
+      overflow: hidden;
+      z-index: -1;
+      margin-top: -265px!important;
+    }
+  
+  
+    .container-vida{
+      top: 30px;
+      width: 90%;
+     
+    }
+  
+    .container-vida{
+      position: relative;
+      z-index: 1;
+      top: 55px;
+      left:4%
+    }
+  
+    .h1-vida {
+    z-index: 1;
+    color: white;
+    font-size: 35px;
+    margin-left: -10px;
+    font-family: inter;
+    background-color: rgba(51, 255, 204, 0.5);
+    inline-size: fit-content;
+    font-weight: 900;
+    padding: 12px;
+    top: 40px;
+    } 
+    
+    .h2-vida{
+    margin-top: 10px;
+    color: white;
+    font-family: inter;
+    font-weight: 700!important;
+    font-size: 12px!important;
+    width: 103%!important;
+    }
+   
+    
+    .h3-vida{
+      margin-top: 10px;
+      color: white;
+      font-family: inter;
+      font-weight: 400;
+      font-size: 8px!important;
+    }
+  
+  
+  .h1-vida{
+   
+    margin-left: 0.1%;
+    font-weight: 500;
+    font-size: 100%!important;
+    padding: 4PX;
+  }
+  
+  .h2-vida{
+    font-weight: 500;
+    font-size: 80%;
+  }
+  
+  
+   
+  .h3-vida{
+    font-size: 60%;
+  }
+  
+    .header-vida .imgPorDefectoMotos{
+      display: none;
+    }
+    
+    .header-vida .imgRemplazoMotos{
+      display: none;
+    }
+  
+    .header-vida .imgFotoCelular{
+      display: block;
+    }
+  
+    .buttonVidaHeader {
+      display: flex;
+        position: relative;
+        top: 30px;
+        padding: 8px 30px 8px 30px;
+        border-radius: 8px;
+        border: 0.2px transparent;
+        background-color: #33FFCC;
+    }
+
+    .buttonVidaHeader a {
+      font-size: 8px;
+      font-family: 'Inter';
+      text-decoration: none;
+      color: #3369FF;
+  }
+
+  }

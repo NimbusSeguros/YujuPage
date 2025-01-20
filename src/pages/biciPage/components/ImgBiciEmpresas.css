@@ -1,0 +1,154 @@
+.divImgEmpresasBici{
+    margin-top: 420px;
+}
+
+.h2ImgEmpresas-bici {
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 16px;
+    margin-top: -60px;
+    margin-bottom: 40px;
+    margin-left: 4%;
+    color: #3369FF;
+}
+
+.divImg {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px; 
+    margin-left: 2%;
+}
+
+.EmpresasgridImage {
+    width: 100%;
+    height:100%;
+    object-fit: cover; 
+    filter: grayscale(100%); 
+}
+
+.h2ImgEmpresas-bici {
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 16px;
+    margin-top: -90px;
+    margin-bottom: 40px;
+    margin-left: 4%;
+    color: #3369FF;
+}
+
+.EmpresasgridImage:hover {
+    filter: none;
+}
+
+
+
+
+  @media 
+  (min-width: 1200px) and (max-width: 1500px) {
+    
+    .divImgEmpresasBici{
+        margin-top: 365px;
+    }
+    
+    .h2ImgEmpresas-bici {
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 16px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+    margin-left: 4%;
+    color: #3369FF;
+    }
+    
+    .divImg {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(3, auto);
+        gap: 10px; /* Ajusta el valor del gap según tus necesidades */
+    margin-left: 2%;
+    }
+    
+    .EmpresasgridImage {
+        width: 100%;
+        height:100%;
+        object-fit: cover; 
+        filter: grayscale(100%); /* convertir imágenes en escala de grises */
+    }
+    
+    .h2ImgEmpresas-bici {
+        font-family: Inter;
+        font-weight: 800;
+        font-size: 16px;
+        margin-top: -90px;
+        margin-bottom: 40px;
+        margin-left: 4%;
+        color: #3369FF;
+    }
+    
+    .EmpresasgridImage:hover {
+        filter: none;
+    }
+
+
+  }
+  
+
+
+  @media (min-width: 601px) and (max-width: 900px) {
+
+
+    .h2ImgEmpresas-bici{
+        font-size: 16px;
+    }
+    .divImgEmpresasBici {
+        margin-top: 285px;
+        
+    }
+
+    .EmpresasgridImage{
+        height: 120%;
+    }
+
+  }
+
+
+
+  @media (min-width: 421px) and (max-width: 600px) {
+
+    .h2ImgEmpresas-bici{
+        font-size: 12px;
+    }
+    .divImgEmpresasBici {
+        margin-top: 265px;
+        
+    }
+
+    .EmpresasgridImage{
+        height: 120%;
+    }
+
+  }
+
+  
+  @media (min-width: 100px) and (max-width: 420px) {
+
+    .h2ImgEmpresas-bici{
+        font-size: 12px;
+    }
+    .divImgEmpresasBici {
+        margin-top: 225px;
+        
+    }
+
+    .EmpresasgridImage{
+        height: 120%;
+    }
+
+
+  }
+
+
+
+
+

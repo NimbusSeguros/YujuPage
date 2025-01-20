@@ -1,0 +1,599 @@
+.divPadreAcordeon-bici {
+  width: 91vw;
+  margin: 0 auto; /* Centrado */
+}
+
+.bottonAcordeon-bici {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 91.5vw;
+  padding: 10px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  font-family: 'Inter';
+  font-weight: bold;
+  color: rgba(141, 139, 142, 1);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: -10px;
+  text-align: justify;
+}
+.bottonAcordeon-bici:hover {
+  background-color: #f7f7f7;
+}
+
+.divHijoBiciAcordeon-bici p {
+  font-family: inter;
+  font-size: 12px;
+  color: rgba(141, 139, 142, 1);
+  margin-left: -80px;
+  display: flex;
+  text-align: -webkit-left;
+  padding-right: 95px;
+  padding-top: 10px;
+}
+
+.arrow {
+  font-size: 12px;
+  color: rgba(51, 105, 255, 1);
+  transition: transform 0.3s ease;
+}
+
+.arrow-open {
+  transform: rotate(180deg); /* Rotar la flecha hacia arriba */
+}
+
+.arrow-closed {
+  transform: rotate(0deg); /* Flecha por defecto */
+}
+
+.divHijoBiciAcordeon-bici {
+  display: none; /* Ocultar contenido por defecto */
+  padding: 0 15px 15px 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.divHijoBiciAcordeon-bici.show {
+  display: block; /* Mostrar contenido al abrir */
+}
+
+.divPadreAcordeon-bici hr {
+  border: none;
+  height: 1px;
+  background-color: #ddd;
+  margin: 0;
+  width: 91vw;
+}
+
+
+
+@media (min-width: 1401px) and (max-width: 1700px) { 
+  .divPadreAcordeon-bici {
+    width: 91vw;
+    margin: 0 auto; /* Centrado */
+  }
+  
+  .bottonAcordeon-bici {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 92vw;
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    font-family: 'Inter';
+    font-weight: bold;
+    color: rgba(141, 139, 142, 1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: -10px;
+    text-align: justify;
+}
+  .bottonAcordeon-bici:hover {
+    background-color: #f7f7f7;
+  }
+  
+  .divHijoBiciAcordeon-bici p {
+    font-family: inter;
+    font-size: 12px;
+    color: rgba(141, 139, 142, 1);
+    margin-left: -45px;
+    display: flex;
+    text-align: -webkit-left;
+    padding-right: 95px;
+    padding-top: 10px;
+}
+
+  .arrow {
+    font-size: 12px;
+    color: rgba(51, 105, 255, 1);
+    transition: transform 0.3s ease;
+  }
+  
+  .arrow-open {
+    transform: rotate(180deg); /* Rotar la flecha hacia arriba */
+  }
+  
+  .arrow-closed {
+    transform: rotate(0deg); /* Flecha por defecto */
+  }
+  
+  .divHijoBiciAcordeon-bici {
+    display: none; /* Ocultar contenido por defecto */
+    padding: 0 15px 15px 15px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .divHijoBiciAcordeon-bici.show {
+    display: block; /* Mostrar contenido al abrir */
+  }
+  
+  .divPadreAcordeon-bici hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 0;
+    width: 91vw;
+  }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) { 
+  .divPadreAcordeon-bici {
+    width: 91vw;
+    margin: 0 auto; /* Centrado */
+  }
+  
+  .bottonAcordeon-bici {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 92vw;
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    font-family: 'Inter';
+    font-weight: bold;
+    color: rgba(141, 139, 142, 1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: -10px;
+    text-align: justify;
+}
+  .bottonAcordeon-bici:hover {
+    background-color: #f7f7f7;
+  }
+  
+  .divHijoBiciAcordeon-bici p {
+    font-family: inter;
+    font-size: 12px;
+    color: rgba(141, 139, 142, 1);
+    margin-left: -60px;
+    display: flex;
+    text-align: -webkit-left;
+    padding-right: 95px;
+    padding-top: 10px;
+}
+
+  .arrow {
+    font-size: 12px;
+    color: rgba(51, 105, 255, 1);
+    transition: transform 0.3s ease;
+  }
+  
+  .arrow-open {
+    transform: rotate(180deg); /* Rotar la flecha hacia arriba */
+  }
+  
+  .arrow-closed {
+    transform: rotate(0deg); /* Flecha por defecto */
+  }
+  
+  .divHijoBiciAcordeon-bici {
+    display: none; /* Ocultar contenido por defecto */
+    padding: 0 15px 15px 15px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .divHijoBiciAcordeon-bici.show {
+    display: block; /* Mostrar contenido al abrir */
+  }
+  
+  .divPadreAcordeon-bici hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 0;
+    width: 91vw;
+  }
+
+}
+
+@media (min-width: 601px) and (max-width: 960px) {
+
+  .divPadreAcordeon-bici {
+    width: 91vw;
+    margin: 0 auto; /* Centrado */
+  }
+  
+  .bottonAcordeon-bici {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 92vw;
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    font-size: 10px;
+    font-family: 'Inter';
+    font-weight: bold;
+    color: rgba(141, 139, 142, 1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: -10px;
+    text-align: justify;
+}
+  .bottonAcordeon-bici:hover {
+    background-color: #f7f7f7;
+  }
+  
+  .divHijoBiciAcordeon-bici p {
+    font-family: inter;
+    font-size: 10px;
+    color: rgba(141, 139, 142, 1);
+    margin-left: -45px;
+    display: flex;
+    text-align: -webkit-left;
+    padding-right: 95px;
+    padding-top: 10px;
+}
+
+  .arrow {
+    font-size: 12px;
+    color: rgba(51, 105, 255, 1);
+    transition: transform 0.3s ease;
+  }
+  
+  .arrow-open {
+    transform: rotate(180deg); /* Rotar la flecha hacia arriba */
+  }
+  
+  .arrow-closed {
+    transform: rotate(0deg); /* Flecha por defecto */
+  }
+  
+  .divHijoBiciAcordeon-bici {
+    display: none; /* Ocultar contenido por defecto */
+    padding: 0 15px 15px 15px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .divHijoBiciAcordeon-bici.show {
+    display: block; /* Mostrar contenido al abrir */
+  }
+  
+  .divPadreAcordeon-bici hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 0;
+    width: 91vw;
+  }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  
+  .divPadreAcordeon-bici {
+    width: 91vw;
+    margin: 0 auto; /* Centrado */
+  }
+  
+  .bottonAcordeon-bici {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 96vw;
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    font-size: 8px;
+    font-family: 'Inter';
+    font-weight: bold;
+    color: rgba(141, 139, 142, 1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: -10px;
+    text-align: justify;
+}
+  .bottonAcordeon-bici:hover {
+    background-color: #f7f7f7;
+  }
+  
+  .divHijoBiciAcordeon-bici p {
+    font-family: inter;
+    font-size: 8px;
+    color: rgba(141, 139, 142, 1);
+    margin-left: -30px;
+    display: flex;
+    text-align: -webkit-left;
+    padding-right: 95px;
+    padding-top: 10px;
+}
+
+  .arrow {
+    font-size: 12px;
+    color: rgba(51, 105, 255, 1);
+    transition: transform 0.3s ease;
+  }
+  
+  .arrow-open {
+    transform: rotate(180deg); /* Rotar la flecha hacia arriba */
+  }
+  
+  .arrow-closed {
+    transform: rotate(0deg); /* Flecha por defecto */
+  }
+  
+  .divHijoBiciAcordeon-bici {
+    display: none; /* Ocultar contenido por defecto */
+    padding: 0 15px 15px 15px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .divHijoBiciAcordeon-bici.show {
+    display: block; /* Mostrar contenido al abrir */
+  }
+  
+  .divPadreAcordeon-bici hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 0;
+    width: 93vw;
+  }
+
+}
+
+@media only screen and (min-width: 426px) and (max-width: 500px) { 
+
+  .divPadreAcordeon-bici {
+    width: 91vw;
+    margin: 0 auto; /* Centrado */
+  }
+  
+  .bottonAcordeon-bici {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 96vw;
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    font-size: 8px;
+    font-family: 'Inter';
+    font-weight: bold;
+    color: rgba(141, 139, 142, 1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: -10px;
+    text-align: justify;
+}
+  .bottonAcordeon-bici:hover {
+    background-color: #f7f7f7;
+  }
+  
+  .divHijoBiciAcordeon-bici p {
+    font-family: inter;
+    font-size: 8px;
+    color: rgba(141, 139, 142, 1);
+    margin-left: -30px;
+    display: flex;
+    text-align: -webkit-left;
+    padding-right: 95px;
+    padding-top: 10px;
+}
+
+  .arrow {
+    font-size: 12px;
+    color: rgba(51, 105, 255, 1);
+    transition: transform 0.3s ease;
+  }
+  
+  .arrow-open {
+    transform: rotate(180deg); /* Rotar la flecha hacia arriba */
+  }
+  
+  .arrow-closed {
+    transform: rotate(0deg); /* Flecha por defecto */
+  }
+  
+  .divHijoBiciAcordeon-bici {
+    display: none; /* Ocultar contenido por defecto */
+    padding: 0 15px 15px 15px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .divHijoBiciAcordeon-bici.show {
+    display: block; /* Mostrar contenido al abrir */
+  }
+  
+  .divPadreAcordeon-bici hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 0;
+    width: 93vw;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 391px) and (max-width: 425px) {
+
+  .divPadreAcordeon-bici {
+    width: 91vw;
+    margin: 0 auto; /* Centrado */
+  }
+  
+  .bottonAcordeon-bici {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 91vw;
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    font-size: 8px;
+    font-family: 'Inter';
+    font-weight: bold;
+    color: rgba(141, 139, 142, 1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: -10px;
+    text-align: justify;
+}
+  .bottonAcordeon-bici:hover {
+    background-color: #f7f7f7;
+  }
+  
+  .divHijoBiciAcordeon-bici p {
+    font-family: inter;
+    font-size: 8px;
+    color: rgba(141, 139, 142, 1);
+    margin-left: -30px;
+    display: flex;
+    text-align: -webkit-left;
+    padding-right: 95px;
+    padding-top: 10px;
+}
+
+  .arrow {
+    font-size: 12px;
+    color: rgba(51, 105, 255, 1);
+    transition: transform 0.3s ease;
+  }
+  
+  .arrow-open {
+    transform: rotate(180deg); /* Rotar la flecha hacia arriba */
+  }
+  
+  .arrow-closed {
+    transform: rotate(0deg); /* Flecha por defecto */
+  }
+  
+  .divHijoBiciAcordeon-bici {
+    display: none; /* Ocultar contenido por defecto */
+    padding: 0 15px 15px 15px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .divHijoBiciAcordeon-bici.show {
+    display: block; /* Mostrar contenido al abrir */
+  }
+  
+  .divPadreAcordeon-bici hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 0;
+    width: 88vw;
+  }
+
+}
+
+
+@media only screen and (min-width: 100px) and (max-width: 360px){ 
+
+  .divPadreAcordeon-bici {
+    width: 90vw;
+    margin: 0 auto; /* Centrado */
+  }
+  
+  .bottonAcordeon-bici {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 93vw;
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    font-size: 8px;
+    font-family: 'Inter';
+    font-weight: bold;
+    color: rgba(141, 139, 142, 1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: -10px;
+    text-align: left;
+}
+  .bottonAcordeon-bici:hover {
+    background-color: #f7f7f7;
+  }
+  
+  .divHijoBiciAcordeon-bici p {
+    font-family: inter;
+    font-size: 8px;
+    color: rgba(141, 139, 142, 1);
+    margin-left: -30px;
+    display: flex;
+    text-align: -webkit-left;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+
+  .arrow {
+    font-size: 12px;
+    color: rgba(51, 105, 255, 1);
+    transition: transform 0.3s ease;
+  }
+  
+  .arrow-open {
+    transform: rotate(180deg); /* Rotar la flecha hacia arriba */
+  }
+  
+  .arrow-closed {
+    transform: rotate(0deg); /* Flecha por defecto */
+  }
+  
+  .divHijoBiciAcordeon-bici {
+    display: none; /* Ocultar contenido por defecto */
+    padding: 0 15px 15px 15px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .divHijoBiciAcordeon-bici.show {
+    display: block; /* Mostrar contenido al abrir */
+  }
+  
+  .divPadreAcordeon-bici hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 0;
+    width: 90vw;
+  }
+
+}

@@ -1,0 +1,6 @@
+export {AcordeonHogar} from "./AcordeonHogar"
+export {BannerHogarPage} from "./BannerHogarPage"
+export {CardHogar} from "./CardHogar"
+export {HeaderHogar} from "./HeaderHogar"
+export {ImgHogar} from "./ImgHogar"
+export {PlanesHogar} from "./PlanesHogar"
