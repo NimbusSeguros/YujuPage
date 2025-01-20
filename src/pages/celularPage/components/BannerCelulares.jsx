@@ -1,3 +1,4 @@
+import { MensajeWspCelular } from "../data/MensajeWspCelular";
 import "./bannerCelulares.css";
 
 export const BannerCelulares = () => {
@@ -14,9 +15,8 @@ export const BannerCelulares = () => {
       </span>
        </h2>
        <div className="buttonMotoBanner">
-        <a href="
-https://wa.me/5491156307246">
-        <button>Escribinos</button>
+        <a >
+        <button onClick={()=> MensajeWspCelular(" seguro para celular")}>Escribinos</button>
         </a>
         </div>
         </div>

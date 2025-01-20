@@ -1,4 +1,5 @@
-import { MensajeWspEmbarcaciones } from "../data/MensajeWspEmbarcaciones";
+
+import { MensajeWspEmbarcaciones } from "../data";
 import "./bannerEmbarcaciones.css";
 
 export const BannerEmbarcaciones = () => {

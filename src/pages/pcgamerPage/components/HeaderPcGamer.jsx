@@ -1,3 +1,4 @@
+import { MensajeWspPcGamer } from "../data";
 import "./headerPcGamer.css";
 
 
@@ -23,8 +24,8 @@ export const HeaderPcGamer = () => {
     <h2 className='h2-pcgamers'>Que nada te limite en tu juego. Asegurá tu PC Gamer al mejor precio.</h2>
     <h3 className='h3-pcgamers'>Tenemos el mejor seguro para tu PC Gamer, para que puedas tener la mejor <br/>experiencia de juego posible. Contratalo hoy, 100% online.</h3>
     <div className="buttonPadreMotoBanner">
-            <a  target="_blank" rel="noopener noreferrer" onClick={sendMessage}>
-              <button className='buttonpcgamerHeader'>Hablá con un asesor</button>
+            <a  target="_blank" rel="noopener noreferrer" >
+              <button className='buttonpcgamerHeader' onClick={()=> MensajeWspPcGamer("seguro para PC Gamer")}>Hablá con un asesor</button>
             </a>
             <span className="separador">°</span>
 
