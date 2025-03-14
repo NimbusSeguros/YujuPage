@@ -5,7 +5,7 @@ import './EmailInput.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Swal from "sweetalert2";
 
-
+// Alerta de éxito SweetAlert
 const sendEmail = ()=> {
   Swal.fire({
     title: "¡Gracias por completar el formulario! 😊",
@@ -23,7 +23,7 @@ const sendEmail = ()=> {
 
 
 
-
+//error al enviar el formulario
 const sendError = () => {
   Swal.fire({
       title: "Error al enviar el formulario",
