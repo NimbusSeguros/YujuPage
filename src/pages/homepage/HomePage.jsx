@@ -5,7 +5,6 @@ import { Carrousel } from '../../components/carrousel/Carrousel';
 import TestimonialCards from './componentsHome/TestimonialCards';
 import EmailInput from './componentsHome/EmailInput';
 import CardComponent from './componentsHome/CardComponent';
-
 import "./HomePage.css";
 import CardMobile from './componentsHome/CardMobile';
 
@@ -46,15 +45,17 @@ export const HomePage = ({ pageId }) => {
           />
         )}
       </div>
+      <Carrousel/>
       <main>
       <div className="semisphere-container">
       <div className="semisphere"></div>
       <div className="content">
         {/* Aquí van los componentes que quieres mostrar encima */}
 
+
           {/* COMIENZAN LAS CARDS*/}
       
-        <h2 className='h2__comp lazy-card'>¿Cómo funciona?</h2>
+        {/* <h2 className='h2__comp lazy-card'>¿Cómo funciona?</h2>
         <div className='containerCard__1 lazy-card'>
         <div className='cards__1'>
         <img src="https://res.cloudinary.com/dewcgbpvp/image/upload/v1722987979/Home-comofunciona-1-azul_iroyga.svg" alt="" />
@@ -77,7 +78,7 @@ export const HomePage = ({ pageId }) => {
         <img src="https://res.cloudinary.com/dewcgbpvp/image/upload/v1722987979/Home-comofunciona-4-verde_bgt8ug.svg" alt="" className='hover-image' />
         <p>Yuju! Ya estás asegurado</p>
         </div>
-        </div>
+        </div> */}
 
         {/* TERMINAN LAS CARDS */}
 
@@ -102,13 +103,15 @@ export const HomePage = ({ pageId }) => {
       <img src="https://res.cloudinary.com/dewcgbpvp/image/upload/v1722988251/OMINT_kh1gb7.png" alt="Imagen 13" className="grid-image" />
       {/* <img src="https://res.cloudinary.com/dewcgbpvp/image/upload/v1722988564/Zurich_yiy98n.png" alt="Imagen 14" className="grid-image" /> */}
       <img src="https://res.cloudinary.com/dewcgbpvp/image/upload/v1722988253/SANPATRICIO-color-2_ta1ozc.png" alt="Imagen 15" className="grid-image" />
+      <img src="https://res.cloudinary.com/dewcgbpvp/image/upload/v1738581577/el_norte_color_uldnz6.png" alt="Imagen 15" className="grid-image" />
+      <img src="https://res.cloudinary.com/dewcgbpvp/image/upload/v1738581577/ike_color_kuvv4f.png" alt="Imagen 15" className="grid-image" />
     </div>
       </section>
 </div>
       </main>
 
 
-      <Carrousel/>
+   
 
 
 

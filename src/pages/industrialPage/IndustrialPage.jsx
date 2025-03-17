@@ -1,10 +1,20 @@
 import "./IndustrialPage.css"
 import { Carrousel } from "../../components/carrousel/Carrousel"
 import { CotizaAhora } from "../../components/cotizaAhora/CotizaAhora"
-import { AcordeonIndustrila, BannerIndustrial, HeaderIndustrial, ImgEmpresasIndustrial, IndustrialInfo } from "./components"
+import { AcordeonIndustrila, BannerIndustrial, HeaderIndustrial, ImgEmpresasIndustrial, IndustrialInfo} from "./components"
 import BannerSeguros from "../../components/bannerSeguros/BannerSeguros"
+import usePrecios from "../../components/hooks/usePrecios"
+import { MensajeWspIndustria } from "./data"
+
 
 export const IndustrialPage = () => {
+  const { precio, error } = usePrecios('industria');
+
+  if (error) {
+    return <div>Error: {error}</div>;
+  }
+
+  const precioCotiza = precio !== null ? `Desde $${precio}/mes` : "Cargando...";
   return (
  <>
   {/* // depende de los estilos de moto  */}
@@ -14,9 +24,11 @@ export const IndustrialPage = () => {
  <HeaderIndustrial/>
  <CotizaAhora 
  titulo="Seguro de industria"
- precio="Desde $4.000/mes"
+//  precio="Desde $4.000/mes"
+precio={precioCotiza}
  button="¡Cotizá ahora!"
  src="https://res.cloudinary.com/dkk8nbi3b/image/upload/v1730211831/SICEI_z9umiy.png"
+ MensajeWsp={MensajeWspIndustria}
 />
 <IndustrialInfo/>
 

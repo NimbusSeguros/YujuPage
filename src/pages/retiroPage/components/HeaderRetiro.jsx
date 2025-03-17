@@ -1,7 +1,11 @@
-
-import { MensajeWspRetiro } from "../data";
 import "./HeaderRetiro.css";
 
+const sendMessage = (title) => {
+  const message = `Hola, quisiera información sobre el seguro de retiro.`;
+    const phoneNumber = "5491156307246"; // Número de WhatsApp
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(url, '_blank', 'noopener,noreferrer,width=600,height=800');
+  };
 
 export const HeaderRetiro = () => {
   return (
@@ -14,8 +18,8 @@ export const HeaderRetiro = () => {
     <h1 className='h1-retiro'>SEGURO DE RETIRO</h1>
     <h2 className='h2-retiro'>Invertí en tu futuro. El producto ideal para complementar tu jubilación.</h2>
     <h3 className='h3-retiro'></h3>
-    <a  target="_blank" rel="noopener noreferrer" >
-    <button className='buttonVidaHeader' onClick={()=> MensajeWspRetiro("Seguro de Retiro")}>Cotizá</button>
+    <a  target="_blank" rel="noopener noreferrer" onClick={sendMessage}>
+    <button className='buttonVidaHeader'>Cotizá</button>
     </a>
     </div>
   

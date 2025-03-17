@@ -1,4 +1,3 @@
-
 import { MensajeWspIndustria } from "../data"
 import "./bannerIndustrial.css"
 
@@ -15,8 +14,8 @@ export const BannerIndustrial = () => {
     
     </h2>
     <div className="buttonIndustrialBanner">
-      <a >
-      <button  onClick={()=> MensajeWspIndustria("Seguro integral de comercio")}>Te asesoramos</button>
+      <a>
+      <button onClick={()=> MensajeWspIndustria()}>Te asesoramos</button>
       </a>
     </div>
         </div>

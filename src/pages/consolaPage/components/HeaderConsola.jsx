@@ -18,8 +18,8 @@ export const HeaderConsola = () => {
     <h3 className='h3-consola'>Tu diversión está asegurada. Te ofrecemos los mejores planes para tu consola, <br />para que puedas disfrutar de tu diversión al máximo y sin interrupciones.<br /> Contratalo hoy, 100% online.</h3>
 
     <div className="buttonPadreMotoBanner">
-            <a  target="_blank" rel="noopener noreferrer" onClick={()=> MensajeWspConsola("seguro para consola")}>
-              <button className='buttonconsolaHeader'>Hablá con un asesor</button>
+            <a  target="_blank" rel="noopener noreferrer">
+              <button onClick={()=> {MensajeWspConsola()}} className='buttonconsolaHeader'>Hablá con un asesor</button>
             </a>
             <span className="separador">°</span>
 

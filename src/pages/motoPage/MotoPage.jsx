@@ -1,26 +1,42 @@
-import "./MotoPage.css"
-import { CotizaAhora } from "../../components/cotizaAhora/CotizaAhora"
-import { HeaderMotos,CardMotos,CardInfo,BannerContratar,ImgEmpresas,AcordeonMotos } from "./motoPageComponents"
-import fotoMoto from "../../assets/image/Moto.png"
+import "./MotoPage.css";
+import { CotizaAhora } from "../../components/cotizaAhora/CotizaAhora";
+import {
+  HeaderMotos,
+  CardMotos,
+  CardInfo,
+  BannerContratar,
+  ImgEmpresas,
+  AcordeonMotos,
+} from "./motoPageComponents";
+import fotoMoto from "../../assets/image/Moto.png";
 import { Carrousel } from "../../components/carrousel/Carrousel";
 import BannerSeguros from "../../components/bannerSeguros/BannerSeguros";
-
+import { MensajeWspMoto } from "./data";
+import usePrecios from "../../components/hooks/usePrecios"
 
 
 export const MotoPage = () => {
-  return (
-  <>
-<div className="semisphere-container-moto">
-      <div className="semisphere-moto"></div>
-      <div className="content-moto">
-<HeaderMotos/>
+  const { precio, error } = usePrecios('moto');
 
+  if (error) {
+    return <div>Error: {error}</div>;
+  }
+
+  const precioMoto = precio !== null ? `Desde $${precio}/mes` : "Cargando...";
+
+  return (
+    <>
+      <div className="semisphere-container-moto">
+        <div className="semisphere-moto"></div>
+        <div className="content-moto">
+          <HeaderMotos />
 
 <CotizaAhora 
  titulo="Seguro de motos"
- precio="Desde $4.000/mes"
+ precio={precioMoto}
  button="¡Cotizá ahora!"
  src={fotoMoto}
+ MensajeWsp={MensajeWspMoto}
 />
 
 
@@ -40,3 +56,4 @@ export const MotoPage = () => {
   )
 }
 
+export default MotoPage;

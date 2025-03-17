@@ -18,9 +18,9 @@ export const BannerPcGamer = () => {
       
        </h2>
        <div className="buttonNotebookBanner">
-  <a>
-  <button onClick={()=> MensajeWspPcGamer("seguro para PC Gamer")}>Escribinos</button>
-  </a>
+       <a>
+      <button onClick={()=> MensajeWspPcGamer()}>Escribinos</button>
+      </a>
 </div>
             </div>
       )

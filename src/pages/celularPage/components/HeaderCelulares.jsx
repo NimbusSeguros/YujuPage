@@ -1,8 +1,13 @@
-import { MensajeWspCelular } from "../data/MensajeWspCelular";
 import "./headerCelulares.css";
 
 
-
+const sendMessage = () => {
+  const message = `Hola, quiero información sobre el seguro para celular.
+`;
+  const phoneNumber = "5491156307246"; // Número de WhatsApp
+  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+  window.open(url, '_blank', 'noopener,noreferrer,width=600,height=800');
+};
 
 
 export const HeaderCelulares = () => {
@@ -17,8 +22,8 @@ export const HeaderCelulares = () => {
     <h2 className='h2-celular'>Conectate con el mundo con seguridad. <br/>Elegí el plan que más te beneficie.</h2>
     <h3 className='h3-celular'>Tenemos las mejores opciones de seguro, para que puedas disfrutar de las fotos, <br/>los mensajes y las llamadas que te importan con el mejor respaldo.</h3>
     <div className="buttonPadreMotoBanner">
-            <a  target="_blank" rel="noopener noreferrer" >
-              <button className='buttonMotoHeader' onClick={()=> MensajeWspCelular(" seguro para celular")}>Hablá con un asesor</button>
+            <a  target="_blank" rel="noopener noreferrer">
+              <button className='buttonMotoHeader'onClick={() => {sendMessage()}}>Hablá con un asesor</button>
             </a>
             <span className="separador">°</span>
 

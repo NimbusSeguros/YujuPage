@@ -1,8 +1,5 @@
-
 import { MensajeWspRetiro } from "../data";
 import "./bannerRetiro.css";
-
-
 
 export const BannerRetiro = () => {
     return (
@@ -18,11 +15,10 @@ export const BannerRetiro = () => {
         </span>
        </h2>
         <div className="buttonRetiroBanner">
-        <a target="_blank" rel="noopener noreferrer">
-        <button onClick={()=> MensajeWspRetiro("seguro de retiro")}>Te asesoramos</button>
+        <a>
+        <button onClick={()=> MensajeWspRetiro()}>Escribinos</button>
         </a>
         </div>
             </div>
-
       )
 }
